@@ -1,0 +1,11 @@
+--- a/Makefile	2025-08-13 12:21:33.143760082 +0900
++++ b/Makefile	2025-08-13 00:10:45.263230252 +0900
+@@ -92,7 +92,7 @@
+ build_triplet = x86_64-pc-linux-gnu
+ host_triplet = arm-unknown-mingw32ce
+ #libSDL_ttf_la_DEPENDENCIES =
+-noinst_PROGRAMS = showfont$(EXEEXT) glfont$(EXEEXT)
++noinst_PROGRAMS =
+ subdir = .
+ ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+ am__aclocal_m4_deps = $(top_srcdir)/acinclude/freetype2.m4 \
