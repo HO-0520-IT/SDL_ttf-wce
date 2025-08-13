@@ -1,0 +1,19 @@
+/configure~
+
+*.a
+*.la
+*.o
+*.lo
+
+# from .hgignore
+autom4te*
+config.cache
+config.log
+config.status
+Makefile
+libtool
+.deps
+.libs
+SDL_ttf.pc
+SDL_ttf.spec
+
